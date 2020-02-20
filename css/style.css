@@ -1,0 +1,231 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+.header{
+    float: left;
+    width: 100%;
+    border-top: 14px solid black;
+    background-color: #f0e1e1;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+}
+
+.menu{
+    float: right;
+    margin-top: 30px;
+}
+.menu ul{
+    float: right;
+    margin-top: 35px;
+
+}
+.menu ul li{
+    float: left;
+    margin-left: 45px;
+}
+.menu ul li a{
+    font-size: 14px;
+    color: orangered;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.menu ul li a.active{
+    color: black;
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact{
+    float: right;
+}
+.contact p{
+    float: right;
+    font-size: 14px;
+    color: #999898;
+    margin-top: 20px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.banner_section{
+    float: left;
+    width: 100%;
+    background-image: url(file:///Applications/MAMP/htdocs/project-eleven/images/orangebkg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.information{
+    float: left;
+    width: 50%;
+}
+.information h1{
+    float: left;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85px;
+    line-height: 70px;
+    margin-top: 50px;
+    margin-left: 35px;
+
+}
+.information h2{
+    float: left;
+    color: white;
+    font-size: 15px; font-family: Arial;
+    background-color: black;
+    padding: 15px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    
+
+}
+.information a{
+    float: left;
+    font-size: 15px;
+    color: #fe9b00;
+    background-color: black;
+    padding: 15px;
+    padding-left: 60px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.info{
+    float: right;
+    width: 50%;
+    margin-top: 20px;   
+}
+
+.section-one{
+    float: left;
+    width: 33%;
+}
+
+.single_grid {
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.single_grid h2 {
+    border-bottom: 5px solid #000;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.grid_two {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.single_grid p {
+    font-size: 12px;
+    color: #5d5d5d;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.single_grid a {
+    color: orangered;
+    text-transform: uppercase;
+}
+.image_grid_section{
+    float: left;
+    width: 100%;
+}
+
+.image_grid {
+    float: left;
+    width: 25%;
+    margin-bottom: 25px;
+
+}
+.section_three{
+    float: left;
+    width: 100%;
+}
+.section_three_box {
+    float: left;
+    width: 70%;
+    margin-top: 25px;
+}
+.section_three_box h2{
+    float: left;
+    font-size: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.section_three_box p {
+    float: left;
+    font-size: 12px;
+    line-height: 15px;
+    color: #9b9898;
+}    
+
+.section_three_symbol h2{
+    float: left;
+    font-size: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+}
+.section_three_symbol {
+    float: right;
+    width: 30%;
+    margin-top: 25px;
+}
+.section_three_symbol ul {
+    float: left;
+}
+
+.section_three_symbol ul li{
+    float: left;
+    margin-left: 10px;
+
+}
+.footer{
+    float: left;
+    width: 100%;
+    background-color: #f0e1e1;
+    margin-top: 45px;
+}
+
+.footer_box {
+    margin: 25px 0
+}
+
+.footer_box img {
+    float: right;
+}
+.footer_box p{
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5d5d5d;
+    mar
+}
